@@ -19,16 +19,20 @@ const Ejemplo2 = () => {
     
     /**
      * ? CASO 1: EJECUTAR EL useEffect() SIEMPRE QUE HALLA UN CAMBIO EN ALGUN COMPONENTE DEL DOM
-    */
+    
     useEffect(()=>{
         console.log("Ha habido un cambio en los componentes")
         console.log(DOM)
     })
-    
+    */
 
      /**
      * ? CASO 1: EJECUTAR EL useEffect() SIEMPRE QUE HALLA UN CAMBIO EN EL CONTADOR 1
      */
+    useEffect(()=>{
+        console.log("Ha habido un cambio en el CONTADOR 1")
+        console.log(DOM)
+    },[contador1])
 
 
     return (
