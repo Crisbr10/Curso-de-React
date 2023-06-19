@@ -27,7 +27,7 @@ const Ejemplo2 = () => {
     */
 
      /**
-     * ? CASO 1: EJECUTAR EL useEffect() SIEMPRE QUE HALLA UN CAMBIO EN EL CONTADOR 1
+     * ? CASO 2: EJECUTAR EL useEffect() SIEMPRE QUE HALLA UN CAMBIO EN EL CONTADOR 1
      */
     useEffect(()=>{
         console.log("Ha habido un cambio en el CONTADOR 1")
